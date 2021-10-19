@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<link rel="stylesheet" href="css/iconFonts.css">
+    <link rel="stylesheet" href="css/style.css">
+	<script src="script/script.js" async defer></script>
+</head>
+<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__inner">
+					<div class="header__text">Скачиваю видео из TikTok без водяного знака</div>
+					<a href="#" class="header__link">
+						<span class="header__link-text">Наш Telegram бот для скачивания</span>
+						<div class="header__link-wrapper">
+							<span class="header__link-icon fab fa-telegram"></span>
+						</div>
+					</a>
+				</div>
+			</div>
+		</header>
+		<section class="main-block">
+			<div class="container main-block__container">
+				<div class="main-block__inner">
+					<div class="main-block__image">
+						<img class="main-block__img" src="images/Buddy.png" alt="buddy">
+					</div>
+					<form id="form" name="user_form" class="form" method="" action="">
+						<div class="form__inner">
+							<div class="form__input form-name">
+								<p class="form__input-url">
+									<input type="text" class="form-name" id="form_url" name="url_name" placeholder="Вставьте ссылку на видео" required pattern="https://vm.tiktok.com/.+/[ ]*|https://www.tiktok.com/@+\w+\/video/\d+">
+								</p>
+								<button id="form-btn" class="form-button__btn" type="submit">скачать</button>
+							</div>
+							<div class="form__wrapper form__wrapper-blue"></div>
+							<div class="form__wrapper form__wrapper-red"></div>
+						</div>
+					</form>
+					<div class="main-block__content">
+						<p class="main-block__content-title">Убедись, что ссылка имеет один из следующих форматов:</p>
+						<div class="main-block__content-text">
+							<span>
+								https://www.tiktok.com/@crolic777/video/6994445289801239809<br>
+								https://vm.tiktok.com/ZSeRJkE1B/
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+</body>
+</html>
