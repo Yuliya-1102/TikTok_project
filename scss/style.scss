@@ -169,4 +169,7 @@ input:focus:valid {
 input[placeholder]{
   text-overflow:ellipsis;
 }
+input:focus:valid .form-button__btn{
+  background-color: green;
+}
 @import 'media';
